@@ -1,0 +1,20 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[*.{handlebars,hbs}]
+tab_width = 4
+
+[*.js]
+tab_width = 2
+indent_size = 2
+indent_style = space

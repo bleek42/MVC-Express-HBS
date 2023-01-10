@@ -1,0 +1,8 @@
+{
+    "editorconfig": true,
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "printWidth": 90,
+    "semi": true,
+    "parser": "babel"
+}

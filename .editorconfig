@@ -11,8 +11,10 @@ indent_size = 4
 trim_trailing_whitespace = false
 insert_final_newline = false
 
-[*.{handlebars,hbs}]
+[*.{handlebars,hbs,html}]
 tab_width = 4
+indent_style = tab
+trim_trailing_whitespace = true
 
 [*.js]
 tab_width = 2

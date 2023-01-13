@@ -34,6 +34,6 @@ async function validateBasicAuth(err, req, res, next) {
   next(err);
 }
 
-module.exports {
-  validateBasicAuth
-}
+module.exports = {
+  validateBasicAuth,
+};

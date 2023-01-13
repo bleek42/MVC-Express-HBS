@@ -4,6 +4,5 @@
     "arrowParens": "always",
     "printWidth": 90,
     "semi": true,
-    "parser": "babel",
     "singleQuote": true
 }

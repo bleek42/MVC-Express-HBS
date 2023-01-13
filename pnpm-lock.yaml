@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   bcrypt: ^5.0.0
+  bulma: ^0.9.4
   dotenv: ^8.2.0
   eslint: ^8.31.0
   eslint-config-prettier: ^8.6.0
@@ -20,6 +21,7 @@ specifiers:
 
 dependencies:
   bcrypt: 5.1.0
+  bulma: 0.9.4
   dotenv: 8.6.0
   express: 4.18.2
   express-handlebars: 5.3.5
@@ -329,6 +331,10 @@ packages:
     dependencies:
       semver: 7.3.8
     dev: true
+
+  /bulma/0.9.4:
+    resolution: {integrity: sha512-86FlT5+1GrsgKbPLRRY7cGDg8fsJiP/jzTqXXVqiUZZ2aZT8uemEOHlU1CDU+TxklPEZ11HZNNWclRBBecP4CQ==}
+    dev: false
 
   /bytes/3.1.2:
     resolution: {integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==}

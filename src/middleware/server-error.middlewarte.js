@@ -13,6 +13,7 @@ function serverErrorHandler(err, req, res, next) {
   }
 
   res.status(500).json(errRes);
+  next(err);
 }
 
 module.exports = serverErrorHandler;

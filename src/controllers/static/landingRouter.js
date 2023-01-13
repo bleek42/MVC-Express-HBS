@@ -1,10 +1,12 @@
 const { Router } = require('express');
 
-staticRouter.route('/', async (req, res, next) => {
+staticRouter.route('/', (req, res, next) => {
   try {
-    await res.render('<p> landing page </p>');
+    res.render('<p> landing page </p>');
   } catch (err) {
     console.error(err);
     next(err);
   }
 });
+
+staticRouter.route();

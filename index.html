@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hello Bulma!</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+	<header>
+		<h2>Form Data Example</h2>
+	</header>
+	<main>
+
+		<div class="file">
+			<form action="javascript:logSubmit()" id="upload-file" enctype="multipart/form-data">
+				<label class="file-label" for="file-label">Enter file name</label>
+				<input title="file-name" name="file-name" type="text" required>
+				<label for="upload">File Goes Here
+					<input type="file" name="upload" id="upload" class="file-input" required>
+					<span class="file-cta">
+						<span class="file-icon">
+							<i class="fas fa-upload">
+							</i>
+						</span>
+						<span class="file-label">
+							Choose a file…
+						</span>
+					</span>
+				</label>
+				<input type="submit" value="file">
+			</form>
+			<script src="upload.js"></script>
+		</div>
+
+		<section class="section">
+			<h1 class="title">
+				Hello World
+			</h1>
+			<p class="subtitle">
+				My first website with <strong>Bulma</strong>!
+			</p>
+		</section>
+	</main>
+</body>
+
+</html>

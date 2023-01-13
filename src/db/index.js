@@ -1,14 +1,24 @@
-const Sequelize = require("sequelize");
+const Sequelize = require('sequelize');
+const {
+  NODE_ENV,
+  DB_NAME,
+  DB_USER,
+  DB_PASSWORD,
+  DB_HOST,
+  DB_PORT,
+  DB_NAME,
+} = require('../config');
 
-const connOpts = {};
+const connOpts = {
+  dialect: 'mysql',
+  host: DB_HOST,
+  port: DB_PORT,
+  database: DB_NAME,
+  username: DB_USER,
+  password: DB_PASSWORD,
+};
 
-const connection = new Sequelize();
-
-sequelize = new Sequelize(
-  process.env.DB_NAME,
-  process.env.DB_USER,
-  process.env.DB_PASSWORD
-);
+const sequelize = new Sequelize(connOpts);
 //   {
 //     host: 'localhost',
 //     dialect: 'mysql',

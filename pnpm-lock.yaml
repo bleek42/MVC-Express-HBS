@@ -4,6 +4,7 @@ specifiers:
   bcrypt: ^5.0.0
   bulma: ^0.9.4
   chai: ^4.3.7
+  chalk: ^5.2.0
   dotenv: ^8.2.0
   eslint: ^8.31.0
   eslint-config-prettier: ^8.6.0
@@ -27,6 +28,7 @@ specifiers:
 dependencies:
   bcrypt: 5.1.0
   bulma: 0.9.4
+  chalk: 5.2.0
   dotenv: 8.6.0
   express: 4.18.2
   express-handlebars: 5.3.5
@@ -424,6 +426,11 @@ packages:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
     dev: true
+
+  /chalk/5.2.0:
+    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: false
 
   /check-error/1.0.2:
     resolution: {integrity: sha512-BrgHpW9NURQgzoNyjfq0Wu6VFO6D7IZEmJNdtgNqpzGG8RuNFHt2jQxWlAs4HMe119chBnv+34syEZtc6IhLtA==}

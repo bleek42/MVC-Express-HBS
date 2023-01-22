@@ -4,9 +4,10 @@ const { create } = require('express-handlebars');
 const morgan = require('morgan');
 const helmet = require('helmet');
 
+const { NODE_ENV, PORT } = require('./config');
+const { validateBasicAuth, eventLogger, serverErrorHandler } = require('./middleware');
 const routes = require('./controllers');
 const sequelize = require('./db');
-const { NODE_ENV, PORT } = require('./config');
 const sequelize = require('./db');
 
 // ! change to use a winston logging middleware

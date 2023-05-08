@@ -1,5 +1,5 @@
-const winston = require('winston');
 const chalk = require('chalk');
+const { createLogger, transports, format } = require('winston');
 
 const config = {
   levels: {
@@ -21,8 +21,6 @@ const config = {
   },
 };
 
-const { createLogger, transports, format } = winston;
-
 const eventLogger = createLogger({
   defaultMeta: { service: 'logger-service' },
   levels: config.levels,
@@ -39,4 +37,4 @@ const eventLogger = createLogger({
   ],
 });
 
-module.exports = logger;
+module.exports = eventLogger;

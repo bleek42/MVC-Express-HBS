@@ -1,0 +1,39 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "bleek4212",
+            "password": "passwerdBrehh12",
+            "admin": true,
+            "emai": "bleek42@gmail.com"
+        },
+        {
+            "id": 2,
+            "username": "notBleek4212",
+            "password": "passwerdBrehh12",
+            "admin": false,
+            "emai": "notBleek421242@gmail.com"
+        },
+        {
+            "id": 3,
+            "username": "moarusers21",
+            "password": "passwersasdedBrehh12",
+            "admin": false,
+            "emai": "moarusers21@gmail.com"
+        },
+        {
+            "id": 4,
+            "username": "otherUser213",
+            "password": "passwerdBrehsaash12",
+            "admin": false,
+            "emai": "otheryser4212@gmail.com"
+        },
+        {
+            "id": 5,
+            "username": "userr2134",
+            "password": "n32passwerdBrehh12",
+            "admin": false,
+            "emai": "user22@gmail.com"
+        }
+    ]
+}
